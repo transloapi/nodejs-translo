@@ -1,12 +1,25 @@
 ## Translo Nodejs
 
-Nodejs client for Translo API
+Node.js client for Translo API
+
+## Installing
+```
+npm i nodejs-translo
+```
 
 ## Import module
 
 ```js
-const Translo = require('./translo')
+// require module
+const Translo = require('nodejs-translo')
 
+// ES6 import
+import Translo from 'nodejs-translo'
+
+// javascript file
+const Translo = require('./translo.js')
+```
+```js
 const APIKey = 'RAPIDAPI-KEY'
 const translo = new Translo(APIKey)
 ```
