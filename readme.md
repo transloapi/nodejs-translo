@@ -4,7 +4,7 @@ Nodejs client for Translo API
 
 ## Import module
 
-```
+```js
 const Translo = require('./translo')
 
 const APIKey = 'RAPIDAPI-KEY'
@@ -13,7 +13,7 @@ const translo = new Translo(APIKey)
 
 ## translate
 
-```
+```js
 // Promises
 
 translo.translate('Привет, мир!', 'en', 'ru')
@@ -27,7 +27,7 @@ let translate = await translo.translate('Привет, мир!', 'en', 'ru')
 
 ## batch_translate
 
-```
+```js
 // Promises
 
 translo.batchTranslate([
@@ -46,7 +46,7 @@ let batch = await translo.batchTranslate([
 
 ## detect
 
-```
+```js
 // Promises
 
 translo.detect('Translo is the best translator in Telegram')
