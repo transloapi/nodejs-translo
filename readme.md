@@ -7,6 +7,8 @@ Node.js client for Translo API
 npm i nodejs-translo
 ```
 
+npm https://www.npmjs.com/package/nodejs-translo
+
 ## Import module
 
 ```js
